@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    tools:context="com.example.apoorva.softskilldevelopment.Character">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="353dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Sometimes the road to interview success simply comes down to character."
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="349dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="378dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="13dp"
+        android:text="Your character is the single most reliable predictor of what you’ll achieve in your career, making it top priority for many employers when it comes to their line of questioning. "
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="351dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="310dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:text="Here are five of the favourite character questions "
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="351dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="246dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="1. Who do you admire and why?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="351dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="194dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="11dp"
+        android:text="2. Tell me something about you that isn’t on your CV"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="349dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="140dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:text="3. What do you most dislike about yourself?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView37" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="351dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="91dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="4. Is it acceptable to lie in business?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView38" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="351dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="37dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="5. Is it OK to spend time at work on non-work stuff, like Facebook or YouTube?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView39" />
+</android.support.constraint.ConstraintLayout>

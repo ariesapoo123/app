@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    tools:context="com.example.apoorva.softskilldevelopment.Goal">
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="354dp"
+        android:layout_height="83dp"
+        android:layout_marginBottom="390dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="26dp"
+        android:text="Have you thought about what you want to be doing in five years' time? Are you clear about what your main objective at work is at the moment? Do you know what you want to have achieved by the end of today?"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="354dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="329dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:text="Here are our five golden rules of goal setting"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView41" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="354dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="269dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="14dp"
+        android:text="1. Set Goals That Motivate You. Write down why it's valuable and important to you."
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView42" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="354dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="202dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="14dp"
+        android:text="2. Set SMART Goals -> Specific. Measurable. Attainable. Relevant. Time Bound. "
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView43" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="354dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="143dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="11dp"
+        android:text="3. Set Goals in Writing"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView44" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="354dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="93dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="4. Make an Action Plan"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView45" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="356dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="37dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:text="5. Stick With It!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView46" />
+</android.support.constraint.ConstraintLayout>

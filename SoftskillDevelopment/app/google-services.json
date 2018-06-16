@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "487687646565",
+    "firebase_url": "https://job-registration.firebaseio.com",
+    "project_id": "job-registration",
+    "storage_bucket": "job-registration.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487687646565:android:a4d61268f774180d",
+        "android_client_info": {
+          "package_name": "com.example.apoorva.softskilldevelopment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487687646565-oe1ftqap004ur0k51hhgtpt0al7dpgft.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.apoorva.softskilldevelopment",
+            "certificate_hash": "7f99826c25b66f56671f6491e22eaae67603e879"
+          }
+        },
+        {
+          "client_id": "487687646565-5pmtkfoan81kr2ldmnmrmqdd4em0ckbq.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "487687646565-5pmtkfoan81kr2ldmnmrmqdd4em0ckbq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHRH5NZTEbkjC5RmwHMd_aWRL8Bz233qQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "487687646565-5pmtkfoan81kr2ldmnmrmqdd4em0ckbq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    tools:context="com.example.apoorva.softskilldevelopment.Priority">
+
+    <TextView
+        android:id="@+id/textView62"
+        android:layout_width="356dp"
+        android:layout_height="81dp"
+        android:layout_marginBottom="401dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Looking at what goes into making up your day, where do your activities fit into these categories? Make a to-do list based on how important and urgent tasks are."
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView70"
+        android:layout_width="353dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="11dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="14dp"
+        android:text="1. Important and urgent — Tasks that must be done. Do them right away."
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toTopOf="@+id/textView71"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView62" />
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="351dp"
+        android:layout_height="76dp"
+        android:layout_marginBottom="406dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="11dp"
+        android:text="2. Important but not urgent — Tasks that appear important, but upon closer time aren’t. Decide when to do them."
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView70" />
+
+    <TextView
+        android:id="@+id/textView72"
+        android:layout_width="351dp"
+        android:layout_height="101dp"
+        android:layout_marginBottom="171dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        android:text="3. Urgent but not important — Tasks that make the most “noise,” but when accomplished, have little or no lasting value."
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView71" />
+
+    <TextView
+        android:id="@+id/textView73"
+        android:layout_width="347dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="86dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:text="4. Not urgent and not important — Low-priority stuff that offer the illusion of “being busy.” Do them later."
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView72"
+        app:layout_constraintVertical_bias="0.0" />
+</android.support.constraint.ConstraintLayout>

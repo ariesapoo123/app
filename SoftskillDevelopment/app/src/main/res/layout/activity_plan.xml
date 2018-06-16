@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    tools:context="com.example.apoorva.softskilldevelopment.Plan">
+
+    <TextView
+        android:id="@+id/textView81"
+        android:layout_width="347dp"
+        android:layout_height="171dp"
+        android:layout_marginBottom="342dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
+        android:text="One of the worst things you can do is jump into the workday with no clear idea about what needs to get done. The time you spend thinking ahead and planning your activities is trivial compared with the time you’ll lose jumping from one thing to the next (and rarely completing anything). Depending on your personality, try one of these options:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.156" />
+
+    <TextView
+        android:id="@+id/textView82"
+        android:layout_width="346dp"
+        android:layout_height="124dp"
+        android:layout_marginBottom="161dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
+        android:text="The night before — At the end of the day, take 15 minutes to clear your desk and put together a list of the next day’s most pressing tasks. It’s a great decompression technique, and you’ll feel better sitting down at a clean desk in the morning."
+        android:textAppearance="@style/TextAppearance.AppCompat.Menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView81" />
+
+    <TextView
+        android:id="@+id/textView83"
+        android:layout_width="347dp"
+        android:layout_height="86dp"
+        android:layout_marginBottom="79dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="19dp"
+        android:text="First thing in the morning — Arrive a few minutes early and assemble your prioritized to-do list (see #2). This may prove to be the most productive part of your day."
+        android:textAppearance="@style/TextAppearance.AppCompat.Menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView82" />
+</android.support.constraint.ConstraintLayout>

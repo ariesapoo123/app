@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    tools:context="com.example.apoorva.softskilldevelopment.Job_cut">
+
+    <TextView
+        android:id="@+id/textView90"
+        android:layout_width="353dp"
+        android:layout_height="126dp"
+        android:layout_marginBottom="369dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="You need to make a plan to prepare yourself emotionally and financially before a layoff happens, so you can survive once it does. Here are some tips to survive getting laid off."
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView91"
+        android:layout_width="351dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="305dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="14dp"
+        android:text="1. Build your network and reach out to the people and take care of emotional state."
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView90" />
+
+    <TextView
+        android:id="@+id/textView92"
+        android:layout_width="351dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="244dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="13dp"
+        android:text="2. When cash gets tight, you might need to prioritize which bills you need to pay first."
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView91" />
+
+    <TextView
+        android:id="@+id/textView93"
+        android:layout_width="351dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="182dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="3. As you look for new full-time employment, you might have to take a part-time job to pay the bills"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView92" />
+
+    <TextView
+        android:id="@+id/textView94"
+        android:layout_width="351dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="121dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="11dp"
+        android:text="4. Check have you updated your resume, or CV? If not, this is the time to update it."
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView93" />
+
+    <TextView
+        android:id="@+id/textView95"
+        android:layout_width="351dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="17dp"
+        android:text="5. Check your passion, where it is leading? It is very important."
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView94" />
+</android.support.constraint.ConstraintLayout>

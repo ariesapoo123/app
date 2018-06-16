@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    tools:context="com.example.apoorva.softskilldevelopment.Career">
+
+    <TextView
+        android:id="@+id/textView96"
+        android:layout_width="354dp"
+        android:layout_height="147dp"
+        android:layout_marginBottom="349dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="How much do you know about yourself? If you plan to live a highly satisfying work life and enjoy your work, you should choose a career that suits you best. But how do you choose the right career?  A lot of people end up choosing the wrong careers due to a lack of appropriate guidance and advice. You shouldn’t be one of them. "
+        android:textAppearance="@style/TextAppearance.AppCompat.Menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView97"
+        android:layout_width="354dp"
+        android:layout_height="72dp"
+        android:layout_marginBottom="263dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="13dp"
+        android:text="Given below are some important tips or guidelines that you should follow to choose the right career and be happy for the rest of your life."
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView96" />
+
+    <TextView
+        android:id="@+id/textView98"
+        android:layout_width="356dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="195dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="1. Know Your Strengths.There must be something that you feel passionate about. "
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView97" />
+
+    <TextView
+        android:id="@+id/textView99"
+        android:layout_width="356dp"
+        android:layout_height="74dp"
+        android:layout_marginBottom="136dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="14dp"
+        android:text="2. Discover Your Personality Type, you’ll be able to find out what type of work environment will suit you best."
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView98" />
+
+    <TextView
+        android:id="@+id/textView100"
+        android:layout_width="353dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="60dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:text="3. Take a career test and seek advice from others who have more professional experience."
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView99" />
+</android.support.constraint.ConstraintLayout>
